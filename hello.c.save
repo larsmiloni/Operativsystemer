@@ -1,0 +1,7 @@
+int staticVar = 0; // a static variable
+main() {
+staticVar += 1;
+sleep(10); // sleep for x seconds
+printf ("static address: %x, value: %d\n", &staticVar,
+staticVar);
+}
